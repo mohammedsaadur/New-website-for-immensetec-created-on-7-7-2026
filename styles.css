@@ -671,6 +671,13 @@ p {
   border-color: rgba(71, 215, 255, 0.35);
 }
 
+.form-consent {
+  margin: 0.25rem 0 0;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
 .cta-band,
 .footer-layout {
   display: grid;
