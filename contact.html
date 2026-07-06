@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Immensetec</title>
+  <meta name="description" content="Contact Immensetec to discuss recruiting, staffing, and workforce support.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <div class="container nav-bar">
+        <a href="index.html" class="brand">IMMENSETEC</a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html" class="active">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div class="container page-hero-card">
+          <p class="kicker">Contact</p>
+          <h1>Bring us the role, the timeline, and the hiring challenge.</h1>
+          <p>
+            We can support urgent searches, long-range hiring plans, and workforce conversations
+            that need clearer direction.
+          </p>
+        </div>
+      </section>
+
+      <section class="content-section">
+        <div class="container contact-layout">
+          <article class="surface-card">
+            <p class="mini-label">Reach out</p>
+            <h2>Let’s start with the brief.</h2>
+            <p>2501 Chatham Rd Suite R, Springfield, IL 62704</p>
+            <p>(412) 573-9556</p>
+            <p>awhite@immensetec.com</p>
+          </article>
+
+          <form class="surface-card contact-form" action="https://formspree.io/f/xzdydkeo" method="POST">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required>
+
+            <label for="company">Company</label>
+            <input id="company" name="company" type="text" placeholder="Company name">
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+            <label for="message">What are you hiring for?</label>
+            <textarea id="message" name="message" rows="6" placeholder="Tell us about the role, timing, and team needs." required></textarea>
+
+            <input type="hidden" name="_subject" value="New Immensetec contact form submission">
+
+            <button type="submit" class="button button-primary">Send Inquiry</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-layout">
+        <div>
+          <a href="index.html" class="brand footer-brand">IMMENSETEC</a>
+          <p>Recruiting systems, specialist search, and talent strategy for growth-focused teams.</p>
+        </div>
+        <div>
+          <h3>Explore</h3>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+          <a href="privacy-policy.html">Privacy Policy</a>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <p>2501 Chatham Rd Suite R, Springfield, IL 62704</p>
+          <p>(412) 573-9556</p>
+          <p>awhite@immensetec.com</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
