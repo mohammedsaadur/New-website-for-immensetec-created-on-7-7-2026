@@ -365,55 +365,12 @@ p {
 .insight-grid {
   display: grid;
   gap: 1rem;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .insight-card {
   padding: 1.5rem;
   border-radius: 22px;
-}
-
-.upload-photo-box {
-  margin-top: 1rem;
-  min-height: 13.5rem;
-  padding: 1.5rem;
-  border-radius: 22px;
-  border: 1px dashed rgba(255, 255, 255, 0.18);
-  background: rgba(255, 255, 255, 0.03);
-  display: flex;
-  align-items: center;
-}
-
-.upload-box-inner {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  width: 100%;
-}
-
-.upload-box-inner strong {
-  display: block;
-  margin-bottom: 0.25rem;
-  font-family: "Bricolage Grotesque", sans-serif;
-}
-
-.upload-box-inner p {
-  margin-bottom: 0;
-  color: var(--muted);
-}
-
-.upload-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-  background: linear-gradient(135deg, rgba(255, 122, 24, 0.2), rgba(71, 215, 255, 0.18));
-  color: #fff;
-  font-size: 1.6rem;
-  font-weight: 700;
-  flex-shrink: 0;
 }
 
 .insight-card h2 {
