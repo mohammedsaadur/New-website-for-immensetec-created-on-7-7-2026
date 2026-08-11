@@ -816,6 +816,7 @@ p {
   margin-bottom: 1rem;
 }
 
+
 .site-footer h3 {
   margin-top: 0;
   margin-bottom: 0.8rem;
@@ -950,6 +951,7 @@ p {
   .brand {
     font-size: 1.25rem;
   }
+
 
   .nav-dropdown-cards {
     grid-template-columns: 1fr;
