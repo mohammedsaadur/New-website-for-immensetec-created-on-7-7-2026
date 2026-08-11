@@ -7,7 +7,7 @@
   <meta name="description" content="Learn how Immensetec approaches recruiting with clarity, speed, and structured hiring systems.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -19,6 +19,55 @@
           <a href="index.html">Home</a>
           <a href="about.html" class="active">About</a>
           <a href="services.html">Services</a>
+          <div class="nav-dropdown">
+            <button class="nav-dropdown-toggle" type="button" aria-expanded="false" aria-controls="solutions-menu">
+              Solutions
+              <span class="nav-caret" aria-hidden="true"></span>
+            </button>
+            <div class="nav-dropdown-menu" id="solutions-menu">
+              <div class="nav-dropdown-column">
+                <p class="nav-dropdown-title">Services</p>
+                <a href="services.html">Manufacturing &amp; Industrial</a>
+                <a href="services.html">Financial</a>
+                <a href="services.html">Healthcare &amp; Medical</a>
+                <a href="services.html">Construction &amp; Infrastructure</a>
+                <a href="services.html">Engineering</a>
+                <a href="services.html">Oil &amp; Gas</a>
+              </div>
+              <div class="nav-dropdown-column nav-dropdown-column-wide">
+                <p class="nav-dropdown-title">Business Challenges</p>
+                <div class="nav-dropdown-cards">
+                  <a href="services.html" class="nav-dropdown-card">
+                    <strong>Direct Hire</strong>
+                    <span>Targeted recruiting for essential permanent roles.</span>
+                  </a>
+                  <a href="services.html" class="nav-dropdown-card">
+                    <strong>Permanent Hire</strong>
+                    <span>Long-term placements built for stability and growth.</span>
+                  </a>
+                  <a href="services.html" class="nav-dropdown-card">
+                    <strong>Fulltime Hire</strong>
+                    <span>Full-cycle hiring support for core team expansion.</span>
+                  </a>
+                  <a href="services.html" class="nav-dropdown-card">
+                    <strong>Resume Finder</strong>
+                    <span>Focused candidate identification for hard-to-fill searches.</span>
+                  </a>
+                </div>
+              </div>
+              <div class="nav-dropdown-column">
+                <p class="nav-dropdown-title">Industry Focus</p>
+                <a href="industries.html">Manufacturing</a>
+                <a href="industries.html">Technology</a>
+                <a href="industries.html">Finance</a>
+                <a href="industries.html">Hospitality</a>
+                <a href="industries.html">Healthcare</a>
+                <a href="industries.html">Engineering</a>
+                <a href="industries.html" class="nav-dropdown-viewall">View all</a>
+              </div>
+            </div>
+          </div>
+          <a href="industries.html">Industries</a>
           <a href="contact.html">Contact</a>
         </nav>
       </div>
@@ -246,6 +295,7 @@
           <h3>Explore</h3>
           <a href="about.html">About</a>
           <a href="services.html">Services</a>
+          <a href="industries.html">Industries</a>
           <a href="contact.html">Contact</a>
           <a href="privacy-policy.html">Privacy Policy</a>
         </div>
@@ -258,5 +308,11 @@
       </div>
     </footer>
   </div>
+  <script src="nav.js"></script>
 </body>
 </html>
+
+
+
+
+
